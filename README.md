@@ -1,51 +1,49 @@
-# BareMinimum
+# axios-router-list
 
-![Size](https://img.shields.io/github/repo-size/2kabhishek/BareMinimum?style=plastic&color=0f0&label=Size)
-![Updated](https://img.shields.io/github/last-commit/2kabhishek/BareMinimum?style=plastic&color=f00&label=Updated)
-![Stars](https://img.shields.io/github/stars/2kabhishek/BareMinimum?style=plastic&color=ffc801&label=Stars)
-![Forks](https://img.shields.io/github/forks/2kabhishek/BareMinimum?style=plastic&color=003cff&label=Forks)
-![Watchers](https://img.shields.io/github/watchers/2kabhishek/BareMinimum?style=plastic&color=ff5500&label=Watchers)
-![Contributors](https://img.shields.io/github/contributors/2kabhishek/BareMinimum?style=plastic&color=f0f&label=Contributors)
-![License](https://img.shields.io/github/license/2kabhishek/BareMinimum?style=plastic&color=555&label=License)
+![Size](https://img.shields.io/github/repo-size/2kabhishek/axios-router-list?style=plastic&color=0f0&label=Size)
+![Updated](https://img.shields.io/github/last-commit/2kabhishek/axios-router-list?style=plastic&color=f00&label=Updated)
+![Stars](https://img.shields.io/github/stars/2kabhishek/axios-router-list?style=plastic&color=ffc801&label=Stars)
+![Forks](https://img.shields.io/github/forks/2kabhishek/axios-router-list?style=plastic&color=003cff&label=Forks)
+![Watchers](https://img.shields.io/github/watchers/2kabhishek/axios-router-list?style=plastic&color=ff5500&label=Watchers)
+![Contributors](https://img.shields.io/github/contributors/2kabhishek/axios-router-list?style=plastic&color=f0f&label=Contributors)
+![License](https://img.shields.io/github/license/2kabhishek/axios-router-list?style=plastic&color=555&label=License)
 
-BareMinimum is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+React app to generate Product List using Axios from JSON server with routing using React Router.
+The data is stored in `src/db.json`.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `node, npm`
 
-## Installing BareMinimum
+## Getting axios-router-list
 
-To install BareMinimum, follow these steps:
-
-```bash
-git clone https://github.com/2kabhishek/BareMinimum
-cd BareMinimum
-<install_command>
-```
-
-## Using BareMinimum
+To get axios-router-list, follow these steps:
 
 ```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description. Options are: a, b. [default: a]
-
+git clone https://github.com/2kabhishek/axios-router-list
+cd axios-router-list
+npm install # Intall dependencies
+./nod_modules/.bin/json-server -w ./src/db.json -p 4000 # Run project installation of json-server on port 4000
+npm start # Runs live on localhost:3000
+npm test # Runs tests
 ```
 
-### To-Do
+## Using axios-router-list
 
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
+Copy required Components into your project structure and include them in your jsx.
+
+```jsx
+import AllProductsPage from Components/AllProductsPage/AllProductsPage
+
+// Other jsx code
+    <AllProductsPage />
+// Code continues
+```
 
 Hit the :star: button if you found this useful.
 
 ### More Info
+
+Builds on [json-list](https://github.com/2kabhishek/json-list) by adding Axios and React Router support.
