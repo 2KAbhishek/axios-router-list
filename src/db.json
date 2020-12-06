@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Dell XPS",
+      "price": 76000,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "name": "Apple Macbook M1",
+      "price": 94000,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "IBM ThinkPad",
+      "price": 70000,
+      "quantity": 5
+    },
+    {
+      "id": 4,
+      "name": "Microsoft Surface",
+      "price": 80000,
+      "quantity": 4
+    }
+  ]
+}
