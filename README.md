@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://2kabhishek.github.io/axios-router-list">BareMinimum</a></h1>
+<h1><a href="https://2kabhishek.github.io/axios-router-list">axios-router-list</a></h1>
 
 <a href="https://github.com/2KAbhishek/axios-router-list/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/axios-router-list?style=flat&color=eee&label="> </a>
